@@ -17,6 +17,9 @@ import crmImage1 from "@assets/generated_images/CRM_Home.jpeg";
 import crmImage2 from "@assets/generated_images/CRM.jpeg";
 import crmImage3 from "@assets/generated_images/CRM jobs.jpeg";
 import comingSoonImage from "@assets/generated_images/coming soon.jpg";
+import smNetworkingImage from "@assets/generated_images/sm 1.jpeg";
+import smNetworkingImage2 from "@assets/generated_images/sm 2.jpeg";
+import smNetworkingImage3 from "@assets/generated_images/sm 3.jpeg";
 import cinemaImage1 from "@assets/generated_images/cinema home.jpeg";
 import cinemaImage2 from "@assets/generated_images/cinema 2.jpeg";
 import cinemaImage3 from "@assets/generated_images/cinema 3.jpeg";
@@ -70,6 +73,16 @@ const projects = [
     images: [cinemaImage1, cinemaImage2, cinemaImage3],
     tech: ["Flutter", "Dart", "Firebase", "Node.js"],
     date: "Jan 2025 - Present",
+    category: "Mobile App",
+  },
+  {
+    id: "sm-networking",
+    title: "SM Networking",
+    description:
+      "A full-scale enterprise sales & distribution management platform serving multiple user roles — Order Bookers, Warehouse Managers, TSMs, and Distributors — each with entirely different screens, permissions, and workflows.",
+    images: [smNetworkingImage, smNetworkingImage2, smNetworkingImage3],
+    tech: ["Flutter", "Provider", "BLoC", "GetIt", "REST API", "Firebase", "PDF Generation"],
+    date: "2025 - Present",
     category: "Mobile App",
   },
   {

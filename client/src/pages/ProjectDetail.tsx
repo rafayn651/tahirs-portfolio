@@ -23,8 +23,34 @@ import crm1 from "@assets/generated_images/CRM_Home.jpeg";
 import crm2 from "@assets/generated_images/CRM.jpeg";
 import crm3 from "@assets/generated_images/CRM jobs.jpeg";
 import crm4 from "@assets/generated_images/CRM profiles.jpeg";
+import smNet1 from "@assets/generated_images/sm 1.jpeg";
+import smNet2 from "@assets/generated_images/sm 2.jpeg";
+import smNet3 from "@assets/generated_images/sm 3.jpeg";
+import smNet4 from "@assets/generated_images/sm 4.jpeg";
 
 const projectsData: Record<string, any> = {
+  "sm-networking": {
+    title: "SM Networking",
+    description:
+      "A full-scale enterprise sales & distribution management platform serving multiple user roles — Order Bookers, Warehouse Managers, TSMs (Territory Sales Managers), and Distributors — each with entirely different screens, permissions, and workflows.",
+    tech: ["Flutter", "Provider", "BLoC", "GetIt", "REST API", "Firebase", "PDF Generation"],
+    date: "2025 - Present",
+    role: "Mobile App Developer",
+    images: [smNet1, smNet2, smNet3, smNet4],
+    githubLink: "https://github.com/tahirahmad1127/SM-networking",
+    features: [
+      "Multi-role architecture: Order Bookers, Warehouse Managers, TSMs, and Distributors",
+      "PDF reporting engine — Order Summaries, Order Forms, and Overall Invoices with date-range filtering",
+      "Offline GPS tracking for field reps with local queue and Firestore sync on reconnect",
+      "Market Bookings and Recoveries drill-down with infinite scroll and pull-to-refresh",
+      "Brands → Categories → Products catalog hierarchy with price override on product cards",
+      "Single-device login enforcement with force-login prompts and session expiry handling",
+      "Either-returning repository methods for all API calls with GetIt dependency injection",
+      "Backend schema and endpoint co-design including report endpoints and auth header conventions",
+    ],
+    fullDescription:
+      "SM Networking is the most complex project in the portfolio — a full-scale sales management platform built for enterprise distribution operations. The app serves four distinct user roles, each with its own screen flows, permissions, and business logic. The reporting engine generates PDF Order Summaries, Order Forms, and Overall Invoices with date-range and distributor/order-booker filtering, all viewable in-app via the printing package. Field operations are supported through offline GPS tracking that queues locations locally and syncs to Firestore on reconnect, handling patchy connectivity in real field conditions. The catalog follows a Brands → Categories → Products hierarchy with price override support. Session security enforces single-device login with force-login prompts and expiry handling. The architecture uses Either-returning repository methods for all API calls, GetIt for dependency injection, and Provider + BLoC for state management — built to scale.",
+  },
   "ziarat-e-harmain": {
     title: "Ziarat-e-Harmain",
     description:
